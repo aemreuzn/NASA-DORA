@@ -16,6 +16,7 @@
 ---
 
 [📖 Proje Hakkında](#-proje-hakkında) •
+[📸 Ekran Görüntüleri](#-ekran-görüntüleri) •
 [✨ Temel Özellikler](#-temel-özellikler) •
 [🛰️ Görev Aşamaları](#️-görev-aşamaları-orbit-path) •
 [🛠️ Mimari ve Teknolojiler](#️-mimari-ve-teknolojiler) •
@@ -33,6 +34,30 @@
 Uygulama, astronot adaylarının seçiminden (ASCAN), Uluslararası Uzay İstasyonu (ISS) operasyonlarına, kapalı döngü yaşam destek sistemlerinden (ECLSS) derin uzay fırtınalarına kadar uzanan çok katmanlı bir simülasyon deneyimi sunar.
 
 Canlı **NASA DONKI (Space Weather Database of Notifications, Knowledge, and Information) REST API** bağlantısı ile anlık uzay hava durumu ve güneş patlaması (solar flare) verilerini simülasyona dahil ederek gerçekçi operasyonel kararlar alınmasını sağlar.
+
+---
+
+## 📸 Ekran Görüntüleri
+
+| 🔐 01. Astronot Giriş Kartı | 🛫 02. Launchpad & Biniş Kartı |
+|:---:|:---:|
+| <img src="screenshots/01_login.jpg" alt="Astronot Giriş Kartı" width="100%"/> | <img src="screenshots/02_launchpad.jpg" alt="Launchpad ve Biniş Kartı" width="100%"/> |
+| *SHA-256 güvenli kimlik doğrulama & dinamik parola analizörü* | *Kişiselleştirilmiş biniş kartı, rol seçimi ve canlı telemetri* |
+
+| 🛰️ 03. Görev Yörüngesi & Aşamalar | 🎛️ 04. Kriz Kokpiti & Karar Ağacı |
+|:---:|:---:|
+| <img src="screenshots/03_mission_orbit.jpg" alt="Görev Yörüngesi ve Aşamalar" width="100%"/> | <img src="screenshots/04_crisis_cockpit.jpg" alt="Kriz Yönetimi Kokpiti" width="100%"/> |
+| *6 aşamalı dinamik görev yörünge hattı ve ilerleme takibi* | *Oksijen/enerji telemetrisi, canlı kriz senaryosu ve A/B/C kararları* |
+
+| 📚 05. Uzay Akademisi | 🎮 06. Uzay Hangarı & Simülasyonlar |
+|:---:|:---:|
+| <img src="screenshots/05_academy.jpg" alt="Uzay Akademisi" width="100%"/> | <img src="screenshots/06_hangar.jpg" alt="Uzay Hangarı" width="100%"/> |
+| *5 modüllü interaktif uzay fiziği & astronot eğitim merkezi* | *NASA Space Place altyapılı 8 interaktif mühendislik oyunu* |
+
+| 🏅 07. Künye, Madalyalar & Sıralama | ⚙️ 08. Simülasyon Ayarları & NASA DONKI |
+|:---:|:---:|
+| <img src="screenshots/07_kunye_leaderboard.jpg" alt="Künye ve Madalyalar" width="100%"/> | <img src="screenshots/08_settings.jpg" alt="Simülasyon Ayarları" width="100%"/> |
+| *Altay-Tunga amblemli astronot karnesi, madalyalar ve liderlik* | *Mars/Ay üs seçimi, çift dil (TR/EN) ve canlı NASA DONKI telemetrisi* |
 
 ---
 
@@ -99,6 +124,7 @@ Canlı **NASA DONKI (Space Weather Database of Notifications, Knowledge, and Inf
 ```
 NASA_DORA_Final/
 ├── NASA.sln                               # Visual Studio / Rider Solution
+├── screenshots/                           # Uygulama arayüz ekran görüntüleri (8 Ekran)
 ├── src/
 │   └── NasaAstronautTraining/
 │       ├── Assets/                        # Vektörel logolar, motifler ve oyun afişleri
