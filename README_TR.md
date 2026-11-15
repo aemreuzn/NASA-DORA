@@ -20,6 +20,7 @@
 ---
 
 [📖 Proje Hakkında](#-proje-hakkında) •
+[🎬 Video Tanıtımı](#-video-tanıtımı) •
 [📸 Ekran Görüntüleri](#-ekran-görüntüleri) •
 [✨ Temel Özellikler](#-temel-özellikler) •
 [🛰️ Görev Aşamaları](#️-görev-aşamaları-orbit-path) •
@@ -38,6 +39,21 @@
 Uygulama, astronot adaylarının seçiminden (ASCAN), Uluslararası Uzay İstasyonu (ISS) operasyonlarına, kapalı döngü yaşam destek sistemlerinden (ECLSS) derin uzay fırtınalarına kadar uzanan çok katmanlı bir simülasyon deneyimi sunar.
 
 Canlı **NASA DONKI (Space Weather Database of Notifications, Knowledge, and Information) REST API** bağlantısı ile anlık uzay hava durumu ve güneş patlaması (solar flare) verilerini simülasyona dahil ederek gerçekçi operasyonel kararlar alınmasını sağlar.
+
+---
+
+## 🎬 Video Tanıtımı
+
+> **📽️ "How DORA Gamifies Real NASA Astronaut Training" (DORA Gerçek NASA Astronot Eğitimini Nasıl Oyunlaştırıyor?)**
+
+D.O.R.A.'nın teorik uzay bilimini, gerçek NASA telemetrisini ve etkileşimli kriz senaryolarını nasıl harmanladığını gösteren video sunumu.
+
+<div align="center">
+  <video src="demo/How_DORA_Gamifies_Real_NASA_Astronaut_Training.mp4" controls width="85%" poster="screenshots/04_crisis_cockpit.jpg">
+    Tarayıcınız video etiketini desteklemiyor. <a href="demo/How_DORA_Gamifies_Real_NASA_Astronaut_Training.mp4">Videoyu izlemek veya indirmek için tıklayın</a>.
+  </video>
+  <p><em>▶️ <a href="demo/How_DORA_Gamifies_Real_NASA_Astronaut_Training.mp4">Videoyu doğrudan izle veya indir (MP4)</a></em></p>
+</div>
 
 ---
 
@@ -128,6 +144,8 @@ Canlı **NASA DONKI (Space Weather Database of Notifications, Knowledge, and Inf
 ```
 NASA_DORA_Final/
 ├── NASA.sln                               # Visual Studio / Rider Solution
+├── demo/                                  # Video tanıtımı ve sunum
+│   └── How_DORA_Gamifies_Real_NASA_Astronaut_Training.mp4
 ├── screenshots/                           # Uygulama arayüz ekran görüntüleri (8 Ekran)
 ├── src/
 │   └── NasaAstronautTraining/

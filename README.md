@@ -20,6 +20,7 @@
 ---
 
 [📖 About The Project](#-about-the-project) •
+[🎬 Video Demo](#-video-showcase) •
 [📸 Screenshots](#-screenshots) •
 [✨ Key Features](#-key-features) •
 [🛰️ Mission Orbit Path](#️-mission-orbit-path-6-stages) •
@@ -38,6 +39,21 @@
 The platform immerses aspiring astronauts into realistic aerospace challenges: from initial candidate screening (ASCAN) and Neutral Buoyancy Lab (NBL) underwater drills to International Space Station (ISS) docking, closed-loop environmental control (ECLSS), Canadarm2 robotics, and deep space solar flare crises.
 
 Featuring live integration with the **NASA DONKI (Space Weather Database of Notifications, Knowledge, and Information) REST API**, the application fetches real-time solar flare and geomagnetic storm alerts, dynamically influencing spacecraft telemetry and decision parameters.
+
+---
+
+## 🎬 Video Showcase
+
+> **📽️ "How DORA Gamifies Real NASA Astronaut Training"**
+
+An overview presentation showcasing how D.O.R.A. bridges theoretical space science, real NASA telemetry, and immersive astronaut training mechanics.
+
+<div align="center">
+  <video src="demo/How_DORA_Gamifies_Real_NASA_Astronaut_Training.mp4" controls width="85%" poster="screenshots/04_crisis_cockpit.jpg">
+    Your browser does not support the video tag. <a href="demo/How_DORA_Gamifies_Real_NASA_Astronaut_Training.mp4">Click here to download or view the video</a>.
+  </video>
+  <p><em>▶️ <a href="demo/How_DORA_Gamifies_Real_NASA_Astronaut_Training.mp4">Download or watch video directly (MP4)</a></em></p>
+</div>
 
 ---
 
@@ -128,6 +144,8 @@ Featuring live integration with the **NASA DONKI (Space Weather Database of Noti
 ```
 NASA_DORA_Final/
 ├── NASA.sln                               # Visual Studio / JetBrains Rider Solution
+├── demo/                                  # Video walkthrough & presentation
+│   └── How_DORA_Gamifies_Real_NASA_Astronaut_Training.mp4
 ├── screenshots/                           # High-resolution application screenshots
 ├── src/
 │   └── NasaAstronautTraining/
