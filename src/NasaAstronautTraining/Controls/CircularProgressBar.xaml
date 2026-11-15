@@ -1,0 +1,33 @@
+<UserControl x:Class="NasaAstronautTraining.Controls.CircularProgressBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Width="44" Height="44">
+    <Grid>
+        <!-- Arka Plan İçi Boş Daire (Halka) -->
+        <Ellipse x:Name="BgEllipse"
+                 Width="38" Height="38"
+                 Stroke="#1E293B"
+                 StrokeThickness="4"
+                 HorizontalAlignment="Center"
+                 VerticalAlignment="Center" />
+
+        <!-- Dinamik İlerleme Yayı (Arc) -->
+        <Path x:Name="ProgressArc"
+              Stroke="#EF4444"
+              StrokeThickness="4"
+              StrokeStartLineCap="Round"
+              StrokeEndLineCap="Round"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Center" />
+
+        <!-- Merkez Küçük Nokta veya Rozet -->
+        <Ellipse x:Name="CenterDot"
+                 Width="6" Height="6"
+                 Fill="#334155"
+                 HorizontalAlignment="Center"
+                 VerticalAlignment="Center" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="NasaAstronautTraining.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:NasaAstronautTraining.ViewModels"
+        xmlns:views="clr-namespace:NasaAstronautTraining.Views"
+        Title="ALTAY TUNGA DORA — Genç Astronot Akademisi"
+        Icon="pack://application:,,,/DORA;component/Assets/altay-tunga-amblem.png"
+        Height="760" Width="1280" MinHeight="620" MinWidth="960"
+        WindowStartupLocation="CenterScreen"
+        TextOptions.TextFormattingMode="Display"
+        TextOptions.TextRenderingMode="ClearType"
+        RenderOptions.ClearTypeHint="Enabled">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:LoginViewModel}">
+            <views:LoginView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:LaunchpadViewModel}">
+            <views:LaunchpadView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:MissionControlViewModel}">
+            <views:MissionControlView />
+        </DataTemplate>
+    </Window.Resources>
+
+    <ContentControl Content="{Binding CurrentScene}" />
+</Window>
